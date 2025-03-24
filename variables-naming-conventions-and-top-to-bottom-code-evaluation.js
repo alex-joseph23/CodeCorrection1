@@ -30,3 +30,19 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+Issues:
+a,b,c, & d are too vague and do not use camelCase or descriptive naming practices
+you cant tell explicity what a,b,c, or d represent
+
+
+
+
+Edited and Enhanced Code
+let customerName = "Alice";
+let numberOfItems = 5;
+let itemName = "baseballs"
+let totalCost = 20;
+let storeName ="WalMart"
+let receiptDetails = customerName + "bought" + "" + itemName + " for $" + totalCost + "at" + WalMart + ".";
+console.log(receiptDetails);
+
